@@ -5,10 +5,10 @@ public class Main {
 	    System.out.println("Sebelum Penukaran Angka");
 	    System.out.println("Nilai f: " + f);
 	    System.out.println("Nilai i: " + i);
-	    
-	    int fi = f;
-	    f = i; 
-	    i = fi;
+		
+	    f = i + f;
+	    i = f - i;
+	    f = f - i;
 	    System.out.println("\nSesudah Penukaran");
 	    System.out.println("Nilai f: " + f);
 	    System.out.println("Nilai i: " + i);
