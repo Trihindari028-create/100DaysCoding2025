@@ -5,9 +5,9 @@ public class Main {
         
         // Menggunakan operator OR (||) dalam kondisi if
         if (cuacapanas || cuacahujan) {
-            System.out.println("beloh minum boba.");
+            System.out.println("boleh minum boba.");
         } else {
-            System.out.println("tidak boloh minum boba.");
+            System.out.println("tidak boleh minum boba.");
         }
 }
 }
