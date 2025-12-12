@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class day96 {
+    
+    static int tambah(int a, int b){
+        return a + b;
+    }
+    static int kurang(int a, int b){
+        return a - b;
+    }
+    static int kali(int a, int b){
+        return a * b;
+    }
+    static double bagi(int a, int b){
+        return (double) a / b;
+    }
+    public static void main(String[] args) {
+        Scanner indar = new Scanner (System.in);
+        
+        System.out.println("Masukan angka pertama: ");
+        int i = indar.nextInt();
+        
+        System.out.println("Masukan angka kedua: ");
+        int t = indar.nextInt();
+        
+        System.out.println("=== Hasil Perhitungan ===");
+        System.out.println("Penjumlahan: " + tambah(i, t));
+        System.out.println("Pengurangan: " + kurang(i, t));
+        System.out.println("Perkalian  : " + kali(i, t));
+        System.out.println("Pembagian  : " + bagi(i, t) );
+    }
+}
