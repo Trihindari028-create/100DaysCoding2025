@@ -23,7 +23,7 @@ public class day100 {
                 }
             }
             
-            if (posC != -1) {
+            if (posS != -1) {
                 for (int i = posC + 1; i < input.length(); i++) {
                     if (input.charAt(i) == 'C') {
                         posC = i;
